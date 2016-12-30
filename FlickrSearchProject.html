@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html id="html" lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!--stylesheets-->
+    <title>Zabs Flickr Search Project</title>
+    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="css/justifiedGallery.min.css" rel="stylesheet">
+    <link href="css/colorbox.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sansita+One" rel="stylesheet">
+
+    <!--Javascript links-->
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src = "js/jquery.justifiedGallery.min.js"></script>
+	<script src = "js/jquery.colorbox.js"></script>
+	<script src = "js/flickrsearch.js"></script>
+
+    <!--Embedded CSS that the JS code interacts with-->
+    <style id="mygallerystyle">
+        #mygallery {
+            position: absolute;
+            padding: 5px;
+            background: white;
+            overflow: scroll;
+            width: 1200px;
+            height: 550px;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <h1>Zabs Flickr Search Project</h1>
+
+    <div id="bodydiv">
+        <div id="searchDiv">
+            <input id="searchtag" placeholder="..." type="text">
+            <button id="button">Search</button>
+        </div>
+
+        <div id="mygallery">
+        </div>
+    </div>
+</body>
+
+</html>
+

@@ -1,0 +1,60 @@
+input[type=text] {
+    width: 120px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Sansita One', cursive;
+    background-color: white;
+    background-image: url("images/searchicon.png");
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin: 5px 1px 3px 0px;
+    outline: none;
+    -webkit-transition: width 0.4s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 53%;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  	padding: 12px 20px 12px 40px;
+  	margin: 5px 1px 3px 0px;
+  	border: 2px solid rgba(81, 203, 238, 1);
+}
+
+#bodydiv {
+     width: 1200px;
+     height: 700px;
+     margin: 0 auto;
+}
+
+#searchDiv {
+    width: 25%;
+    margin: 0 auto; 
+}
+
+h1 {
+font-family: 'Sansita One', cursive;
+text-align: center;
+}
+
+#button {background-color: #555555;
+		border: none;
+    	color: white;
+    	font-family: 'Sansita One', cursive;
+    	padding: 10px 24px;
+    	text-decoration: none;
+    	font-size: 20px;}
+    	
+#html {
+overflow:hidden;
+overflow-y:hidden;
+width: 1400px;
+height: 700px;
+margin: 0 auto;
+}
